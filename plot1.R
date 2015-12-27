@@ -1,10 +1,10 @@
 # Load the NEI & SCC data frames.
 ## Patience my young padawan, this first line will likely take a few seconds.
 if(!exists("NEI")){
-        NEI <- readRDS("summarySCC_PM25.rds")
+        NEI <- readRDS("./data/summarySCC_PM25.rds")
 }
 if(!exists("SCC")){
-        SCC <- readRDS("Source_Classification_Code.rds")
+        SCC <- readRDS("./data/Source_Classification_Code.rds")
 }
 
 # Aggregate by sum the total emissions by year
