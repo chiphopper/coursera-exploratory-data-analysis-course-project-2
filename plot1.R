@@ -1,5 +1,3 @@
-source("downloadArchive.R")
-
 # Load the NEI & SCC data frames.
 ## Patience my young padawan, this first line will likely take a few seconds.
 if(!exists("NEI")){
